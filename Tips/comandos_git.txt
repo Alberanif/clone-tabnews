@@ -1,0 +1,29 @@
+====Principais comandos do Git====
+
+- git log: Mostra todas as "fotos", commits, que foram salvos dos arquivos do repositório
+
+- git log --oneline: Trás os commits feitos com apenas o texto do commit e parte do código hash
+
+- git status: Compara todos as alterações que foram feitas no repositório local, com as alterações feitas no repositório do github
+
+- .gitignore: Arquivo criado que "retira" os arquivos indicados da verilficação do git com o comando "git status"
+
+- git add: Adiciona arquivos ao status "staged", prontos para serem commitados
+
+- git commit: Adiciona os arquivos com status "staged" em um commit 
+
+- git commit --amend: Sobreescrevre o commit anterior com as novas mudanças commitadas
+
+- git commit -m "": Faz o commit e já permite a escrita da mensagem dentro do próprio comando no terminal 
+
+- git diff: Mostra quais arquivos e quais alterações foram feitas nesses arquivos
+
+- git push: Envia o commit local para o repositório online
+
+- git push --force (-f): comando que força a aceitar o commit que está sendo realizado (muito utilizado com o commit --amend)
+
+- git push --force-with-lease: executa o git push --force apenas se a branch local estiver atualizada com a remota (evitando a perda de progresso)
+
+- git pull: Baixa todos os arquivos que foram alterados no repositório online
+
+- 

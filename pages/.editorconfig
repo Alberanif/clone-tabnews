@@ -1,0 +1,8 @@
+root = true
+
+#OBS: As regras de configuração podem ser criadas para diferentes tipos de arquivos (.py - .js - etc...)
+
+[*] # Especificando para qual tipo de arquivo as regras serão aplicadas
+indent_style = space # Defini qual será o tipo da indentação
+indent_space = 2 # Define o número de espaços da indentação
+
